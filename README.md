@@ -1,1 +1,2 @@
-# Noise-reduction-algorithm
+Noise-reduction-algorithm:
+The noise elimination basically means, to reject any unnecessary reading given by ultrasonic sensor, which is a noise or disturbance.So the basic idea of this algorithm was to store the incoming values,take their difference and add this difference into the upcoming values.These set of values would be our predicted values.Then we will set a range in which our incoming values should be.If the values are out of this range then these values should be neglected until the values come back within the range.So basically we are rejecting the noise or disturbance.
